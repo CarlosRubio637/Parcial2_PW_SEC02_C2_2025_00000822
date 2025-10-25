@@ -7,7 +7,7 @@ const { obtenerCuentas, obtenerCuentaPorId, obtenerCuentasPorParametro, obtenerC
 router.get('/', obtenerCuentas);
 
 // Obtener una cuenta por ID
-router.get('/cuenta/:id', obtenerCuentaPorId);
+router.get('/:id', obtenerCuentaPorId);
 
 // Obtener cuentas por parámetro de consulta
 router.get('/search', obtenerCuentasPorParametro);  
